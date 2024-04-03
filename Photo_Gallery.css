@@ -1,0 +1,176 @@
+body{
+    background-color: rgb(255, 218, 185);
+}
+#F{
+display: grid;
+grid-template-columns: 450px 1fr;
+grid-column: 1 / span 2;
+}
+#First{
+grid-row: 1;
+grid-column: 1 / span 2;
+text-align: center;
+    font-size: 26px;
+    padding-top: 5px;
+padding-bottom: 5px;
+color: #8B0000;
+background-color: #000000;
+animation: MyAnim 3s steps(3) infinite;
+}
+@keyframes MyAnim{
+from{
+color: #FF8C00;
+}
+to{
+color: #00FFFF;
+}
+}
+#S{
+grid-row: 1;
+grid-column: 1 / span 2;
+margin: 0;
+padding: 5px;
+text-align: center;
+}
+.Menu{
+grid-row: 1;
+grid-column: 1 / span 2;
+text-decoration: none;
+     color: gold;
+}
+.R{
+grid-row: 1;
+grid-column: 1 / span 2;
+font-size: 23px;
+display: inline;
+margin-right: 5px;
+border: none;
+padding: 3px;
+}
+#M{
+grid-row: 2;
+grid-column: 1 / span 2;
+height: 120px;
+background-image: url("./photo/BMW2.jpg");
+background-size: 80px auto;
+}
+.illuz{
+float: left;
+border: 5px solid #800000;
+padding: 12px;
+margin: 15px 15px 15px 0px;
+background-color: gold;
+}
+figcaption{
+text-align: center;
+font-size: 23px;
+}
+#S1{
+grid-row: 3;
+grid-column: 1 / span 2;
+}
+#M1{
+grid-row: 4;
+grid-column: 1 / span 2;
+padding-top: 15px;
+padding-bottom: 15px;
+background-color: #000000;
+}
+.C{
+text-align: center;
+font-size: 23px;
+display:  inline-block; width: 190px; background-color: gold; border-bottom: solid #800000 5px; border-top: solid #800000 5px; border-left: solid #800000 5px; border-right: solid #800000 5px; margin: 15px;
+}
+a{
+font-size: 23px;
+color: rgb(160, 82, 45);
+text-decoration: none;
+}
+a:hover{
+color: rgba(107, 142, 35, 1.0);
+}
+@media all and (max-width: 1200px){
+body{
+    background-color: rgb(255, 218, 185);
+}
+#F{display: grid;
+grid-template-columns: 1fr;
+}
+#First{
+text-align: center;
+    font-size: 24px;
+    padding-top: 5px;
+padding-bottom: 5px;
+color: #8B0000;
+background-color: #000000;
+animation: MyAnim 3s steps(3) infinite;
+}
+@keyframes MyAnim{
+from{
+color: #FF8C00;
+}
+to{
+color: #00FFFF;
+}
+}
+#S{
+margin: 0;
+padding: 5px;
+text-align: center;
+width: auto;
+}
+.R{
+font-size: 23px;
+display: inline-block;
+margin-right: 5px;
+border: none;
+padding: 3px;
+width: auto;
+}
+.Menu{
+text-decoration: none;
+     color: gold;
+     width: auto;
+}
+#M{
+height: 120px;
+background-image: url("./photo/BMW2.jpg");
+background-size: 80px auto;
+display: none;
+}
+.illuz{
+border: 5px solid #800000;
+padding: 10px;
+margin: 15px 15px 15px 0px;
+background-color: gold;
+}
+figcaption{
+text-align: center;
+font-size: 23px;
+}
+#S1{
+width: auto;
+}
+#M1{
+width: auto;
+padding-top: 15px;
+padding-bottom: 15px;
+background-color: #000000;
+}
+.C{
+text-align: center;
+font-size: 23px;
+display:  inline-block; width: 190px; background-color: gold; border-bottom: solid #800000 5px; border-top: solid #800000 5px; border-left: solid #800000 5px; border-right: solid #800000 5px; margin: 15px;
+}
+a{
+font-size: 23px;
+color: rgb(160, 82, 45);
+text-decoration: none;
+}
+a:hover{
+color: rgba(107, 142, 35, 1.0);
+}
+img{
+width: 340px;
+}
+}

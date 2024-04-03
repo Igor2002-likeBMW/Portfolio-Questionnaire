@@ -1,0 +1,215 @@
+body{
+    background-color: rgb(255, 218, 185);
+}
+.l{
+    text-transform: uppercase;
+}
+.l1{
+    text-transform: capitalize;
+}
+.l2{
+    text-transform: capitalize;
+    font-style: italic;
+}
+#Autos{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 26px;
+    padding-top: 5px;
+padding-bottom: 5px;
+color: #8B0000;
+background-color: #000000;
+animation: MyAnim 3s steps(3) infinite;
+}
+@keyframes MyAnim{
+from{
+color: #FF8C00;
+}
+to{
+color: #00FFFF;
+}
+}
+#M{
+height: 120px;
+background-image: url(./photo/BMW2.jpg);
+background-size: 80px auto;
+}
+#S{
+margin: 0;
+padding: 5px;
+text-align: center;
+}
+.Menu{
+text-decoration: none;
+     color: gold;
+}
+.R{
+ font-size: 23px;
+display: inline;
+margin-right: 5px;
+border: none;
+padding: 3px;
+}
+#Third{
+background-color: black;
+margin: 0;
+}
+p{
+margin: 15px 15px 15px 15px;
+font-size: 23px;
+}
+#V{
+padding: 1px;
+}
+#illuz{
+float: left;
+border: 5px solid #800000;
+padding: 12px;
+margin: 15px 15px 15px 0px;
+background-color: gold;
+}
+figcaption{
+text-align: center;
+font-size: 23px;
+}
+#S1{
+width: 480px;
+}
+.C{display: inline-block;
+text-align: center;
+font-size: 23px;
+width: 190px; background-color: gold; border-bottom: solid #800000 5px; border-top: solid #800000 5px; border-left: solid #800000 5px; border-right: solid #800000 5px; margin: 15px;
+}
+#M1{
+padding-top: 15px;
+padding-bottom: 15px;
+background-color: #000000;
+}
+a{
+font-size: 23px;
+color: rgb(160, 82, 45);
+text-decoration: none;
+}
+a:hover{
+color: rgba(107, 142, 35, 1.0);
+}
+.Oso{
+list-style-image: url(./photo//golf.png);
+font-size: 23px;
+}
+p{
+margin: 15px 15px 15px 15px;
+font-size: 23px;
+}
+@media all and (max-width: 1200px){
+.l{
+    text-transform: uppercase;
+}
+.l1{
+    text-transform: capitalize;
+}
+.l2{
+    text-transform: capitalize;
+    font-style: italic;
+}
+#Autos{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 26px;
+    padding-top: 5px;
+padding-bottom: 5px;
+color: #8B0000;
+background-color: #000000;
+animation: MyAnim 3s steps(3) infinite;
+}
+@keyframes MyAnim{
+from{
+color: #FF8C00;
+}
+to{
+color: #00FFFF;
+}
+}
+#M{
+height: 120px;
+background-image: url(./photo/BMW2.jpg);
+background-size: 80px auto;
+display: none;
+}
+
+#V{
+width: 100%;
+background-color: rgb(255, 218, 185);
+}
+#S{
+margin: 0;
+padding: 5px;
+text-align: center;
+}
+#S1{
+text-align: center;
+width: 100%;
+}
+#par{
+margin-top: auto;
+width: auto;
+display: inline;
+clear: both;
+}
+#M1{
+padding-top: 15px;
+padding-bottom: 15px;
+background-color: #000000;
+}
+a{
+font-size: 23px;
+color: rgb(160, 82, 45);
+text-decoration: none;
+}
+a:hover{
+color: rgba(107, 142, 35, 1.0);
+}
+p{
+margin: 10px 10px 10px 10px;
+font-size: 23px;
+}
+#illuz{
+border: 5px solid #800000;
+padding: 12px;
+margin: 15px 15px 15px 0px;
+background-color: gold;
+width: 91%;
+}
+img{
+width: 330px;
+}
+figcaption{
+text-align: center;
+font-size: 23px;
+}
+#S{
+margin: 0;
+padding: 5px;
+text-align: center;
+}
+.Menu{
+text-decoration: none;
+     color: gold;
+}
+.R{
+ font-size: 23px;
+display: inline-block;
+margin-right: 5px;
+border: none;
+padding: 3px;
+}
+.Oso{
+list-style-image: url(./photo//golf.png);
+font-size: 23px;
+}
+.C{display: inline-block;
+text-align: center;
+font-size: 23px;
+width: 190px; background-color: gold; border-bottom: solid #800000 5px; border-top: solid #800000 5px; border-left: solid #800000 5px; border-right: solid #800000 5px; margin: 15px;
+}
+}
